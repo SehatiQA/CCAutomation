@@ -16,6 +16,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://cc-staging.sehati.co/login')
 
+WebUI.maximizeWindow()
+
 WebUI.delay(2)
 
 WebUI.setText(findTestObject('Page_Consultation Center/Login_Screen/field_email'), 'qaclub@mailinator.com')

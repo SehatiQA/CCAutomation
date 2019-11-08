@@ -13,25 +13,36 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-WebUI.openBrowser('https://cc-staging.sehati.co/login')
+WebUI.openBrowser('https://cc-staging.sehati.co/admin')
 
 WebUI.maximizeWindow()
 
 WebUI.delay(2)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Page_Consultation Center/Login_Screen/link_tnc'), 0)
+WebUI.setText(findTestObject('Page_Consultation Center/Login_Screen/field_email'), 'rudiadmin@mailinator.com')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Consultation Center/Login_Screen/link_tnc'), 0)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_Consultation Center/Login_Screen/link_tnc'))
+WebUI.setText(findTestObject('Page_Consultation Center/Login_Screen/field_password'), 'qwerty')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_Consultation Center/Login_Screen/button_Masuk'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('Page_Consultation Center/beranda(dokter)/button_buatdokter'), 0)
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_Consultation Center/beranda(dokter)/link_privacyPolicy'), 0)
+
+WebUI.click(findTestObject('Object Repository/Page_Consultation Center/beranda(dokter)/link_privacyPolicy'))
 
 WebUI.delay(3)
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Consultation Center/Login_Screen/heading_tnc'), 0)
-
-WebUI.delay(3)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Consultation Center/Login_Screen/heading_privacypolicy'), 0)
 
 WebUI.closeBrowser()

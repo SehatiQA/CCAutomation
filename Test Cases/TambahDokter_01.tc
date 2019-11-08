@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi admin dapat menambahkan dokter baru dengan jenis dokter PPDS</description>
+   <name>TambahDokter_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>06e72f18-c4f1-4a05-b9d9-193a9a8750c8</testCaseGuid>
+</TestCaseEntity>

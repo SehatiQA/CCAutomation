@@ -13,6 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 WebUI.openBrowser('https://cc-staging.sehati.co/login')
 
@@ -20,18 +21,28 @@ WebUI.maximizeWindow()
 
 WebUI.delay(2)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Page_Consultation Center/Login_Screen/link_tnc'), 0)
+WebUI.setText(findTestObject('Page_Consultation Center/Login_Screen/field_email'), 'qakk@mailinator.com')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Consultation Center/Login_Screen/link_tnc'), 0)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_Consultation Center/Login_Screen/link_tnc'))
+WebUI.setText(findTestObject('Page_Consultation Center/Login_Screen/field_password'), 'qwerty')
 
-WebUI.delay(3)
+WebUI.delay(2)
 
-WebUI.switchToWindowIndex(1)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Consultation Center/Login_Screen/heading_tnc'), 0)
+WebUI.click(findTestObject('Page_Consultation Center/Login_Screen/button_Masuk'))
 
 WebUI.delay(3)
+
+WebUI.executeJavaScript('window.open();', [])
+currentWindow =  WebUI.getWindowIndex()
+//Go in to new tab
+WebUI.switchToWindowIndex(currentWindow + 1)
+WebUI.navigateToUrl('https://cc-staging.sehati.co/doctor/new')
+//Comming back
+WebUI.switchToWindowIndex(currentWindow + 1)
+
+WebUI.delay(2)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Consultation Center/Tambah Dokter/heading_oopshalamantidakditemukan'), 0)
 
 WebUI.closeBrowser()

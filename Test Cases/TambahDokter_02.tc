@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi admin dapat menambahkan dokter baru dengan jenis dokter : Dokter</description>
+   <name>TambahDokter_02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb234d07-aabd-4dde-a32e-e479704c7c01</testCaseGuid>
+</TestCaseEntity>

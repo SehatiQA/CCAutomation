@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi pengguna di alihkan ke halaman privacy policy ketika tap kebijakan privacy hyperlink</description>
+   <name>Beranda-AdminView_12</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b82f6fc-948d-4131-b8ca-25b081f010cb</testCaseGuid>
+</TestCaseEntity>
