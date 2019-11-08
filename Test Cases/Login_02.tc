@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi pengguna dapat login ke CC dengan credentials non admin di halaman 'https://cc-staging.sehati.co/login'</description>
+   <name>Login_02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ddc5c54-011a-43ba-ba47-f5c0def1e4d6</testCaseGuid>
+</TestCaseEntity>

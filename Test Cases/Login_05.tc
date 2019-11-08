@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi pengguna di alihkan ke halaman kebijakan privacy</description>
+   <name>Login_05</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>457fa82e-2a55-4f08-b367-c52ab645a86d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi pengguna di alihkan ke halaman syarat dan ketentuan</description>
+   <name>Login_04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2489090-23a2-4e1d-bc73-2a7c971c7f24</testCaseGuid>
+</TestCaseEntity>

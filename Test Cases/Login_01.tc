@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi pengguna dapat login ke CC dengan credentials superadmin di halaman 'https://cc-staging.sehati.co/admin'</description>
+   <name>Login_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4e29331d-eb54-4cf4-9c4a-837df7f997ee</testCaseGuid>
+</TestCaseEntity>

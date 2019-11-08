@@ -1,0 +1,36 @@
+1
+00:00:00,466 --> 00:00:00,470
+1. openBrowser("https://cc-staging.sehati.co/admin")
+
+2
+00:00:07,936 --> 00:00:07,941
+5. delay(2)
+
+3
+00:00:10,036 --> 00:00:10,040
+9. setText(findTestObject("Page_Consultation Center/Login_Screen/field_email"), "qaclub@mailinator.com")
+
+4
+00:00:10,674 --> 00:00:10,675
+13. delay(2)
+
+5
+00:00:12,688 --> 00:00:12,693
+17. setText(findTestObject("Page_Consultation Center/Login_Screen/field_password"), "qwerty")
+
+6
+00:00:13,319 --> 00:00:13,322
+21. delay(2)
+
+7
+00:00:15,347 --> 00:00:15,352
+25. click(findTestObject("Page_Consultation Center/Login_Screen/button_Masuk"))
+
+8
+00:00:15,671 --> 00:00:15,671
+29. delay(2)
+
+9
+00:00:17,681 --> 00:00:17,682
+33. verifyElementPresent(findTestObject("Object Repository/Page_Consultation Center/button_buatdokter"), 0)
+
