@@ -32,6 +32,6 @@ WebUI.click(findTestObject('Page_Consultation Center/Login_Screen/button_Masuk')
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Page_Consultation Center/beranda(dokter)/button_buatdokter'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Consultation Center/Beranda (Admin)/button_buatdokter'), 0)
 
 WebUI.closeBrowser()

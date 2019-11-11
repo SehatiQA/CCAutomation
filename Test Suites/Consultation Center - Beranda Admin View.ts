@@ -22,4 +22,28 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Beranda-AdminView_12</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>326091ee-77ea-4db5-9145-2c3a0a5e6f27</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Beranda-AdminView_04</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fc2e2e47-ba6b-4ad2-b1ce-e1fa028d02d1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Beranda-AdminView_05</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d1fa5f21-076d-41c9-914a-6e54f8a4bdc1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Beranda-AdminView_09</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bd0cd51d-f50e-49e4-939a-e5658105d203</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Beranda-AdminView_10</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

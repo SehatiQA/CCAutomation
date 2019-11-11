@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi list dokter tampil berdasarkan filter status : tidak aktif</description>
+   <name>Beranda-AdminView_05</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b49b0de0-0829-4c54-a0b5-c6ded002400c</testCaseGuid>
+</TestCaseEntity>

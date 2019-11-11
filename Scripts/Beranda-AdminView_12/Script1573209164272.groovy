@@ -33,11 +33,11 @@ WebUI.click(findTestObject('Page_Consultation Center/Login_Screen/button_Masuk')
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Page_Consultation Center/beranda(dokter)/button_buatdokter'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Consultation Center/Beranda (Admin)/button_buatdokter'), 0)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Page_Consultation Center/beranda(dokter)/link_privacyPolicy'), 0)
+WebUI.scrollToElement(findTestObject('Page_Consultation Center/Beranda (Admin)/link_privacyPolicy'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_Consultation Center/beranda(dokter)/link_tnc'))
+WebUI.click(findTestObject('Page_Consultation Center/Beranda (Admin)/link_tnc'))
 
 WebUI.delay(3)
 

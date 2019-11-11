@@ -35,14 +35,14 @@ WebUI.delay(3)
 
 WebUI.verifyElementPresent(findTestObject('Page_Consultation Center/Beranda (Admin)/button_buatdokter'), 0)
 
-WebUI.scrollToElement(findTestObject('Page_Consultation Center/Beranda (Admin)/link_privacyPolicy'), 0)
-
-WebUI.click(findTestObject('Page_Consultation Center/Beranda (Admin)/link_privacyPolicy'))
+WebUI.click(findTestObject('Object Repository/Page_Consultation Center/Beranda (Admin)/dropdown_statusdoctor'))
 
 WebUI.delay(3)
 
-WebUI.switchToWindowIndex(1)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Consultation Center/Beranda (Admin)/dropdown_statusdoctor'), 'true', false)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Consultation Center/Login_Screen/heading_privacypolicy'), 0)
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Consultation Center/Beranda (Admin)/label_aktif'), 0)
 
 WebUI.closeBrowser()

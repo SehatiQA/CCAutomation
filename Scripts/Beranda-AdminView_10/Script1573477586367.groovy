@@ -35,14 +35,22 @@ WebUI.delay(3)
 
 WebUI.verifyElementPresent(findTestObject('Page_Consultation Center/Beranda (Admin)/button_buatdokter'), 0)
 
-WebUI.scrollToElement(findTestObject('Page_Consultation Center/Beranda (Admin)/link_privacyPolicy'), 0)
-
-WebUI.click(findTestObject('Page_Consultation Center/Beranda (Admin)/link_privacyPolicy'))
+WebUI.scrollToElement(findTestObject('Object Repository/Page_Consultation Center/Beranda (Admin)/link_privacyPolicy'), 0)
 
 WebUI.delay(3)
 
-WebUI.switchToWindowIndex(1)
+WebUI.click(findTestObject('Object Repository/Page_Consultation Center/Beranda (Admin)/paging_next'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Consultation Center/Login_Screen/heading_privacypolicy'), 0)
+WebUI.delay(3)
+
+WebUI.scrollToElement(findTestObject('Object Repository/Page_Consultation Center/Beranda (Admin)/link_privacyPolicy'), 0)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/Page_Consultation Center/Beranda (Admin)/paging_prev'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Consultation Center/Beranda (Admin)/span_1'), 0)
 
 WebUI.closeBrowser()
