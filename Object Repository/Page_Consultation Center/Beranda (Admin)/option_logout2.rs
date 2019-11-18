@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>list_mother1</name>
+   <name>option_logout2</name>
    <tag></tag>
-   <elementGuidId>27988952-a7dd-4eb8-88fe-7181bce90299</elementGuidId>
+   <elementGuidId>9707c4d9-4826-4dad-a423-807c13fade12</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/' and (text() = 'Logout' or . = 'Logout')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/section/section/div[2]/div[2]/a</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::a[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,55 +28,48 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/patient/43211/pregnancy/3907/anc/24002/ctg-result/973</value>
+      <value>/</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>No. :1.Nama Lengkap :MamamiaProvinsi :Jawa BaratFaktor Risiko :4 faktor risikoKunjungan : ANCWaktu Periksa:16:41, 06-11-2019</value>
+      <value>Logout</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[1]/div[1]/section[@class=&quot;ContainerContentMain_content__main__y-5aW&quot;]/section[@class=&quot;container pt-9 mt-6&quot;]/div[2]/div[@class=&quot;ContainerUserCtgList_table__list__1KqKh&quot;]/a[1]</value>
+      <value>/html[1]/body[1]/div[3]/div[@class=&quot;show&quot;]/div[@class=&quot;popover show bs-popover-bottom&quot;]/div[@class=&quot;popover-inner&quot;]/div[@class=&quot;popover-body&quot;]/div[1]/div[@class=&quot;ContainerHeaderNavigation_nav__profileItem__3uGgK&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/section/section/div[2]/div[2]/a</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Waktu Periksa'])[1]/following::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kunjungan'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/patient/43211/pregnancy/3907/anc/24002/ctg-result/973')]</value>
+      <value>(//a[contains(@href, '/')])[16]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/a</value>
+      <value>//div/div/div/div/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

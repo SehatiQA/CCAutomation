@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi pengguna dapat memberikan status interpretasi (Suspicious) untuk ibu yang belum di interpretasikan CTG sebelumnya</description>
+   <name>Beranda (Dokter view)_08</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>171ace37-974f-45ae-b5bc-34d7be05e21b</testCaseGuid>
+</TestCaseEntity>

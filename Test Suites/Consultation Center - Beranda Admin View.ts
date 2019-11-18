@@ -58,4 +58,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Beranda-AdminView_12</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>4adc57f5-d404-45d5-80ec-68f2fa51c055</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Beranda-AdminView_13</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
