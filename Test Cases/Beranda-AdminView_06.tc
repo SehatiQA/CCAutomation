@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi list dokter tampil berdasarkan filter nama dokter</description>
+   <name>Beranda-AdminView_06</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b52c291a-8cf5-456f-8d51-63b346165c31</testCaseGuid>
+</TestCaseEntity>
