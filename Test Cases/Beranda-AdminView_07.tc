@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi list dokter tampil berdasarkan filter email dokter</description>
+   <name>Beranda-AdminView_07</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bff6dc7e-d737-4f82-bdc7-24bc78b3f595</testCaseGuid>
+</TestCaseEntity>
