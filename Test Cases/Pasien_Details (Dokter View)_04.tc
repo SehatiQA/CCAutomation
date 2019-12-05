@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi sub section formulir kehamilan tampil pada halaman pasien details</description>
+   <name>Pasien_Details (Dokter View)_04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2150227-06e2-492d-86f5-c48aa7e3af71</testCaseGuid>
+</TestCaseEntity>
