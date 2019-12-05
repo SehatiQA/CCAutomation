@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi pesan error tampil ketika pengguna melakukan registrasi dengan email yang sudah terdaftar</description>
+   <name>TambahDokter_05</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2ab23447-d687-4c42-9e3c-d7dbd05f7388</testCaseGuid>
+</TestCaseEntity>

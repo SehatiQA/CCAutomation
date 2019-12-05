@@ -23,6 +23,18 @@
       <testCaseId>Test Cases/TambahDokter_02</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>ddd26f48-f101-4173-8161-dc7170406eb7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TambahDokter_04</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dae5fda7-6e12-4929-8dde-7b200cc35448</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TambahDokter_05</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>4dbf5f75-4af8-49b8-8f58-63f53f48ddf8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
