@@ -4,4 +4,19 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'qaclub@mailinator.com'</initValue>
+      <name>dokterid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'qwerty'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rudiadmin@mailinator.com'</initValue>
+      <name>adminid</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
