@@ -20,11 +20,11 @@ WebUI.maximizeWindow()
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_Consultation Center/Login_Screen/field_email'), 'qaclub@mailinator.com')
+WebUI.setText(findTestObject('Page_Consultation Center/Login_Screen/field_email'), GlobalVariable.dokterid)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_Consultation Center/Login_Screen/field_password'), 'qwerty')
+WebUI.setText(findTestObject('Page_Consultation Center/Login_Screen/field_password'), GlobalVariable.password)
 
 WebUI.delay(2)
 
