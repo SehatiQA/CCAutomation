@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>inline_emailexist</name>
+   <name>error_inactive account</name>
    <tag></tag>
-   <elementGuidId>b195fb67-14c3-4096-94f2-11e31a2ec4ad</elementGuidId>
+   <elementGuidId>ef8b1326-3cf5-40a3-9f45-8807b866294c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/section/section/div/div/div/form/div[2]/div</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Validasi gagal: Email telah dipakai' or . = 'Validasi gagal: Email telah dipakai')]</value>
+         <value>//div[@id='root']/section/div/div[2]/div/div[2]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,55 +31,41 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Validasi gagal: Email telah dipakai</value>
+      <value>Akun Anda tidak lagi aktif atau telah dinonaktifkan</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[1]/div[1]/section[@class=&quot;ContainerContentAdmin_content__main__3NP-a&quot;]/section[@class=&quot;container mt-7&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-10 offset-sm-1 col-lg-6 offset-lg-3&quot;]/div[@class=&quot;panel mt-4 p-4&quot;]/form[1]/div[2]/div[@class=&quot;alert alert-danger&quot;]</value>
+      <value>id(&quot;root&quot;)/section[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-10 col-md-8 col-lg-6 col-xl-5&quot;]/div[@class=&quot;ContainerLoginForm_form__login__3mJRT card&quot;]/div[2]/div[@class=&quot;alert alert-danger&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/section/section/div/div/div/form/div[2]/div</value>
+      <value>//div[@id='root']/section/div/div[2]/div/div[2]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='minimum 6 karakter'])[1]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat Email'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buat Password'])[1]/following::div[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simpan'])[1]/preceding::div[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='PT. Zetta Sehati Nusantara © 2019'])[1]/preceding::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div[2]/div</value>
+      <value>//div[2]/div/div[2]/div</value>
    </webElementXpaths>
 </WebElementEntity>

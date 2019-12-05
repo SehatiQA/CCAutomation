@@ -79,6 +79,6 @@ WebUI.click(findTestObject('Object Repository/Page_Consultation Center/Tambah Do
 
 WebUI.delay(2)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Consultation Center/Tambah Dokter/inline_emailexist'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Consultation Center/Tambah Dokter/error_emailexist'), 0)
 
 WebUI.closeBrowser()

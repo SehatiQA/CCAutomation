@@ -19,4 +19,9 @@
       <initValue>'rudiadmin@mailinator.com'</initValue>
       <name>adminid</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ppds@mailinator.com'</initValue>
+      <name>inactive</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

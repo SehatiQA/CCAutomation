@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>inline_phoneexist</name>
+   <name>error_emailexist</name>
    <tag></tag>
-   <elementGuidId>34077a23-6ac1-4451-a6db-a430f5141f57</elementGuidId>
+   <elementGuidId>b195fb67-14c3-4096-94f2-11e31a2ec4ad</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Validasi gagal: Phone telah dipakai' or . = 'Validasi gagal: Phone telah dipakai')]</value>
+         <value>//*[(text() = 'Validasi gagal: Email telah dipakai' or . = 'Validasi gagal: Email telah dipakai')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Validasi gagal: Phone telah dipakai</value>
+      <value>Validasi gagal: Email telah dipakai</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

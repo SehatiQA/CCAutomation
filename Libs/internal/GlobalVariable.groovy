@@ -24,6 +24,11 @@ public class GlobalVariable {
      */
     public static Object adminid
      
+    /**
+     * <p></p>
+     */
+    public static Object inactive
+     
 
     static {
         try {
@@ -34,6 +39,7 @@ public class GlobalVariable {
             dokterid = selectedVariables['dokterid']
             password = selectedVariables['password']
             adminid = selectedVariables['adminid']
+            inactive = selectedVariables['inactive']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)
