@@ -11,6 +11,12 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>583615e9-b4ca-47be-a047-275a45815449</testSuiteGuid>
    <testCaseLink>
+      <guid>1de5360a-293a-4240-a7d7-4e2321a8cdf3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dokter_Details (Admin View)_04</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>fb1981fa-5363-4b27-9d02-4f4c471b502d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
