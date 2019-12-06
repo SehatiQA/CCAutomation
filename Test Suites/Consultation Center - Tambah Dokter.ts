@@ -35,6 +35,12 @@
       <testCaseId>Test Cases/TambahDokter_05</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>5d6853ef-3995-4079-b156-4fffca872e28</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TambahDokter_08</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>4dbf5f75-4af8-49b8-8f58-63f53f48ddf8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

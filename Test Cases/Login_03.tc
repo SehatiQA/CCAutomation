@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Verifikasi tooltip 'Mohon hubungi admin untuk reset password'</description>
+   <description>Verifikasi pengguna dapat login ke CC dengan credentials non admin di halaman 'https://cc-staging.sehati.co/login'</description>
    <name>Login_03</name>
    <tag></tag>
    <comment></comment>
